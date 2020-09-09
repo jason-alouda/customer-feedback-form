@@ -1,0 +1,16 @@
+name: customer-feedback-form
+author: Jason Ah Chuen (Tencent Intern)
+org: Tencent
+description: Deploy a full stack application.
+keywords: tencent, serverless, vpc, express, website, postgresql, fullstack, nodemailer
+repo: https://github.com/jason-alouda/customer-feedback-form
+readme: https://github.com/jason-alouda/customer-feedback-form/blob/master/README.md
+license: MIT
+src:
+  src: ./
+  exclude:
+    - .env
+    - '.git/**'
+    - '**/node_modules'
+    - '**/package-lock.json'
+    - serverless.yml
